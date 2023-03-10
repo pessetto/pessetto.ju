@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00B6BC;
+    color: #E4F4F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+a{
+    color: #E4F4F3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+body {
+    background-color: #E4F4F3;
+}
+
+.conteiner_style{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #00B6BC;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #0C6170;
+    font-size: 20px;
+    background-color: #E4F4F3;
+    
+}
